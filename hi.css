@@ -1,0 +1,102 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo del body */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #20202a;
+    color: #e3b771;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    background-color: #20202a;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilo del logo y nombre */
+  .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    color: #e3b771;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #e3b771;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo de los enlaces a redes sociales */
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .social-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .instagram {
+    background-color: #e4405f;
+  }
+  
+  .linkedin {
+    background-color: #129718;
+  }
+  
+  .twitter {
+    background-color: #01061f;
+  }
+  
+  /* Estilo del footer */
+  footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  
+  
